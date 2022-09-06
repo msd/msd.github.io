@@ -10,7 +10,7 @@
             div.innerText = "just a lonely div";
             div.style.background = "green";
             div.style.color = "red";
-            document.body.appendChild(document.body.firstChild, div);
+            document.body.insertBefore(div, document.body.firstChild);
         }
     </script>
 </head>
